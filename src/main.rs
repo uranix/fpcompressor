@@ -4,6 +4,7 @@ use std::io::{Read};
 use bitstream_io::{BitWriter, BigEndian, BitWrite};
 
 mod varint;
+mod chunk;
 
 fn main() -> io::Result<()> {
 
